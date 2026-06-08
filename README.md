@@ -1,5 +1,7 @@
 # Social Media App with React Native
 
+(Note: This project was made in 2024, but I decided to upload it to GitHub in 2026 to keep it safe :D)
+
 I wanted to push myself to the limits, so I tried making a simple social media app, or you can call a 'dupe Instagram LOL.'
 
 This is a React Native social media app with register, login, a photo feed with 'like' and 'unlike', and a profile screen. This is also the first project where I used Redux, which means it was the first time I really had to think about where data lives in an app.
