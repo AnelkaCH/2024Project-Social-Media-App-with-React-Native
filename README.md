@@ -1,4 +1,4 @@
-# Social Media App with React Native
+# Social Media App with React Native 📱
 
 (Note: This project was made in 2024, but I decided to upload it to GitHub in 2026 to keep it safe :D. Also, I have lost a lot of my original assets when transferring data to my new laptop so I will put screenshots of it that I have on my phone of the app. Please let me know.)
 
@@ -51,7 +51,7 @@ The `isLogin` flag in Redux controlling which navigator renders was probably the
 
 The per-post like state was also a good logic puzzle. The trick was using `map()` to return a new array where only the tapped post's `likeStatus` was flipped and not all of them. That `if (item.id === id)` check inside `map()` is something I now use instinctively.
 
-# Screenshots
+## Screenshots
 
 <img width="191" height="328" alt="image" src="https://github.com/user-attachments/assets/9e152efa-f832-4885-a12c-9609509ae4b4" />
 <img width="191" height="328" alt="image" src="https://github.com/user-attachments/assets/0c01b587-bcd7-4632-8f7a-a9d0297a50ba" />
@@ -63,3 +63,11 @@ The per-post like state was also a good logic puzzle. The trick was using `map()
 - Post images are loaded from Picsum (random placeholders).
 - Built as part of my self-study in mobile development with some guidance from structured learning materials
 - Built for Android; iOS not tested
+
+## Acknowledgements
+
+This project was developed as part of a React Native learning course. While some starter files were provided, the application logic, landmark dataset, and overall implementation were developed by me as part of the learning process.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
